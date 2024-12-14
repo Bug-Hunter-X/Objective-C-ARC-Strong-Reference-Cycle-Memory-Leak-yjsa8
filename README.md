@@ -1,0 +1,3 @@
+# Objective-C ARC Strong Reference Cycle Memory Leak
+
+This repository demonstrates a common memory leak in Objective-C applications caused by strong reference cycles when using Automatic Reference Counting (ARC).  The example shows how two classes retain each other, preventing deallocation and leading to memory issues.  The solution illustrates how to fix this using weak references.  Understanding and avoiding this pattern is crucial for building stable and memory-efficient Objective-C applications.
